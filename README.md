@@ -37,7 +37,7 @@ A full-featured real estate platform enabling users to register, list properties
 - **Socket.IO Integration**: Enables responsive and real-time communication.
 - **Contextual Chat**: Messaging tied to property listings for focused discussions.
   
-### ⏱️ 7. Auto Property Delete *(New)*
+### ⏱️ 7. Auto Property Delete 
 - **Automatic Expiry**: Properties are automatically deleted after a set duration.
 - **Clean Platform**: Keeps the listing page free from outdated properties.
 - **Hands-Free Maintenance**: Reduces the need for manual deletion by owners.
