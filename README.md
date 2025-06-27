@@ -1,9 +1,4 @@
-# zephyr-winter-2025-05
 
-## Project Title : Real-Estate Web Application
-## Tech stack : MERN
-
-## Features and functionalities : (to be discussed soon)
 # 🏠 Real Estate Web Application
 
 A full-featured real estate platform enabling users to register, list properties, manage their listings,  and maintain personal profiles.
@@ -36,6 +31,16 @@ A full-featured real estate platform enabling users to register, list properties
 * **Edit Profile**: Update personal information including name, email, and contact details.
 * **Activity Overview**:
   * Listed properties
+    
+ ### 💬 6. Real-Time Messaging System Add commentMore actions
+- **Instant Messaging**: Authenticated users can send and receive messages in real time.
+- **Socket.IO Integration**: Enables responsive and real-time communication.
+- **Contextual Chat**: Messaging tied to property listings for focused discussions.
+  
+### ⏱️ 7. Auto Property Delete 
+- **Automatic Expiry**: Properties are automatically deleted after a set duration.
+- **Clean Platform**: Keeps the listing page free from outdated properties.
+- **Hands-Free Maintenance**: Reduces the need for manual deletion by owners.
 
 ## 🛠️ Tech Stack
 
