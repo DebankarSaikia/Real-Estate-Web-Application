@@ -1,60 +1,88 @@
- Real Estate Web Application
-A full-featured real estate platform enabling users to register, list properties, manage their listings, communicate in real time, and maintain personal profiles.
+# zephyr-winter-2025-05
 
-🚀 Features
-1. 🔐 User Authentication
-Registration & Login: Secure user sign-up and login functionalities.
+## Project Title : Real-Estate Web Application
+## Tech stack : MERN
 
-Password Encryption: Utilizes bcrypt for hashing user passwords.
+## Features and functionalities : (to be discussed soon)
+# 🏠 Real Estate Web Application
 
-2. 🏘️ Property Listings
-Comprehensive Details: Display properties with images, price, location, and descriptions.
+A full-featured real estate platform enabling users to register, list properties, manage their listings,  and maintain personal profiles.
 
-Search & Filter: Users can search and filter properties based on:
+## 🚀 Features
 
-Location
+### 1. 🔐 User Authentication
 
-Price range
+* **Registration & Login**: Secure user sign-up and login functionalities.
+* **Password Encryption**: Utilizes `bcrypt` for hashing user passwords.
 
-Detailed View: Access in-depth information for individual properties.
+### 2. 🏘️ Property Listings
 
-3. 🛠️ Property Management
-Add Listings: Users can add new properties with complete details.
+* **Comprehensive Details**: Display properties with images, price, location, and descriptions.
+* **Search & Filter**: Users can search and filter properties based on:
 
-Edit Listings: Modify existing property details.
+  * Location
+  * Price range
+ **Detailed View**: Access in-depth information for individual properties.
 
-Delete Listings: Remove properties from the platform.
+### 3. 🛠️ Property Management
 
-Ownership Restrictions: Only property owners can edit or delete their listings.
+* **Add Listings**: Users can add new properties with complete details.
+* **Edit Listings**: Modify existing property details.
+* **Delete Listings**: Remove properties from the platform.
+* **Ownership Restrictions**: Only property owners can edit or delete their listings.
 
-4. 💬 Real-Time Messaging System (New)
-Instant Messaging: Authenticated users can send and receive messages in real time.
+### 5. 👤 User Profile Management
 
-Socket.IO Integration: Enables responsive and real-time communication.
+* **Edit Profile**: Update personal information including name, email, and contact details.
+* **Activity Overview**:
+  * Listed properties
 
-Contextual Chat: Messaging tied to property listings for focused discussions.
+## 🛠️ Tech Stack
 
-5. ⏱️ Auto Property Delete (New)
-Automatic Expiry: Properties are automatically deleted after a set duration.
+* **Frontend**: React.js
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB
+* **Authentication**: JWT, bcrypt
 
-Clean Platform: Keeps the listing page free from outdated properties.
+## 📦 Installation & Setup
 
-Hands-Free Maintenance: Reduces the need for manual deletion by owners.
+1. **Clone the Repository**:
 
-6. 👤 User Profile Management
-Edit Profile: Update personal information including name, email, and contact details.
+   ```bash
+   git clone https://github.com/zephyr-winter-internship-2025/zephyr-winter-2025-05.git
+   cd real-estate-app
+   ```
 
-Activity Overview:
+2. **Install Dependencies**:
 
-Listed properties
+   ```bash
+   # Backend
+   cd backend
+   npm install
 
-🛠️ Tech Stack
-Frontend: React.js
+   # Frontend
+   cd ../frontend
+   npm install
+   ```
 
-Backend: Node.js, Express.js
+3. **Environment Variables**:
 
-Database: MongoDB
+   * Create a `.env` file in the `backend` directory with the following:
 
-Authentication: JWT, bcrypt
+     ```env
+     PORT=5000
+     MONGODB_URI=your_mongodb_connection_string
+     JWT_SECRET=your_jwt_secret
+     ```
 
-Real-Time Communication: Socket.IO
+4. **Run the Application**:
+
+   ```bash
+   # Backend
+   cd api
+   npm start
+
+   # Frontend
+   cd client
+   npm run dev
+   ```
