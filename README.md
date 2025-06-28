@@ -54,7 +54,7 @@ A full-featured real estate platform enabling users to register, list properties
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/zephyr-winter-internship-2025/zephyr-winter-2025-05.git
+   git clone https://github.com/DebankarSaikia/Real-Estate-Web-Application.git
    cd real-estate-app
    ```
 
